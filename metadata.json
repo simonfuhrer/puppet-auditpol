@@ -1,0 +1,22 @@
+{
+  "author": "jon billingsley",
+  "description": "This module is a type/provider to manage audit policies in Windows via auditpol.exe.",
+  "dependencies": [
+  ],
+  "license": "MIT",
+  "name": "jonono-auditpol",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows"
+    }
+  ],
+  "requirements": [
+    {
+	"name": "puppet",
+        "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "source": "https://github.com/simonfuhrer/puppet-auditpol",
+  "summary": "manage Windows audit policies",
+  "version": "0.1.2"
+}
